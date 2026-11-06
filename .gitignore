@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Production frontend build outputs
+dist/
+dist-ssr/
+*.local
+
+# Tauri / Rust compiler build artifacts
+src-tauri/target/
+
+# WebView2 / Edge test profiles & caches
+.edge_test_profile/
+EBWebView/
+
+# TypeScript build info caches
+*.tsbuildinfo
+
+# Logs & temporary test runner outputs
+*.log
+test_err.txt
+test_out.txt
+desktop-e2e-result.json
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# External research clones & nested git repositories (avoid submodules / huge vendor dumps)
+third_party/*
+!third_party/README.md
+integrations/agent-desktop/upstream/
+
+# OS metadata
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/

@@ -1,0 +1,72 @@
+[
+  {
+    "pipeline": "Pipeline A",
+    "testName": "Gateway WebSocket Protocol v4 Handshake",
+    "status": "PASS",
+    "details": "Connected to ws://127.0.0.1:18789, authenticated with token, received hello-ok.",
+    "error": null
+  },
+  {
+    "pipeline": "Pipeline B",
+    "testName": "Web Audio Formant & Viseme Mapping",
+    "status": "PASS",
+    "details": "Verified acoustic formant bands map accurately to vowel blendshapes (aa, ee, ih, oh, ou).",
+    "error": null
+  },
+  {
+    "pipeline": "Pipeline C",
+    "testName": "Desktop Observation & Discovery",
+    "status": "PASS",
+    "details": "Enumerated running applications through WinSta0\\Default desktop station bridge.",
+    "error": null
+  },
+  {
+    "pipeline": "Pipeline C",
+    "testName": "Accessibility Tree Parsing & Ref Addressing",
+    "status": "PASS",
+    "details": "Located target control \"Text editor\" with qualified ref: @s1j2wqhgxnrgsi:e1",
+    "error": null
+  },
+  {
+    "pipeline": "Pipeline C",
+    "testName": "Observe-Act-Verify End-to-End Execution",
+    "status": "PASS",
+    "details": "Successfully typed sentence into @s1j2wqhgxnrgsi:e1 with post-action verification.",
+    "error": null
+  },
+  {
+    "pipeline": "Pipeline D",
+    "testName": "Decoupled Character Sub-Controllers",
+    "status": "PASS",
+    "details": "CharacterController, BlinkController, GazeController verified in codebase.",
+    "error": null
+  },
+  {
+    "pipeline": "Pipeline E",
+    "testName": "Executable Whitelist Enforcement",
+    "status": "PASS",
+    "details": "Permitted application (notepad) approved by security boundary.",
+    "error": null
+  },
+  {
+    "pipeline": "Pipeline E",
+    "testName": "Unwhitelisted Binary Rejection Gate",
+    "status": "PASS",
+    "details": "Dangerous executable (powershell.exe) blocked at validation boundary.",
+    "error": null
+  },
+  {
+    "pipeline": "Pipeline E",
+    "testName": "Command Injection Chaining Immunity",
+    "status": "PASS",
+    "details": "Shell injection characters (;) blocked at argument sanitization boundary.",
+    "error": null
+  },
+  {
+    "pipeline": "Pipeline F",
+    "testName": "Unified Capability Manager & MCP Routing",
+    "status": "PASS",
+    "details": "Single capability routing layer active across DesktopCapabilityManager, desktop-mcp-server.js, and agent-desktop-launcher.exe.",
+    "error": null
+  }
+]

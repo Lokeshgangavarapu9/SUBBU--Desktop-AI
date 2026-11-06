@@ -1,0 +1,23 @@
+{
+  "systemRamTotalGB": 15.64,
+  "systemRamFreeGB": 0.59,
+  "systemRamUsedGB": 15.05,
+  "vramTotalMB": 4094,
+  "vramUsedMB": 2251,
+  "vramFreeMB": 1642,
+  "gpuUtilizationPct": 0,
+  "totalActiveProcesses": 500,
+  "nodeProcessCount": 15,
+  "openclawProcessCount": 4,
+  "frontendResponseMs": 877,
+  "frontendHttpOk": true,
+  "openclawConnectionMs": -1,
+  "openclawOk": false,
+  "ollamaEvalCount": 64,
+  "ollamaEvalDurationMs": 1372,
+  "ollamaTokensPerSec": 46.6,
+  "totalAiTimeMs": 24257,
+  "timeToFirstTokenMs": 22880,
+  "desktopSnapshotMs": 4232,
+  "desktopSnapshotOk": true
+}

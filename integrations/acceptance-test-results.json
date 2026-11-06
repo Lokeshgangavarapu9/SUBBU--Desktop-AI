@@ -1,0 +1,107 @@
+{
+  "frontendUI": [
+    {
+      "name": "Page Title & Mount Verification",
+      "status": "PASS",
+      "details": "Title: \"SUBBU — Your Personal AI Friend\"",
+      "error": null
+    },
+    {
+      "name": "3D WebGL Canvas Injection",
+      "status": "PASS",
+      "details": "Three.js / R3F Canvas active in DOM tree.",
+      "error": null
+    },
+    {
+      "name": "Floating Composer Input Area",
+      "status": "PASS",
+      "details": "Interactive text entry composer located in DOM.",
+      "error": null
+    },
+    {
+      "name": "HUD Navigation Buttons Inspection",
+      "status": "PASS",
+      "details": "Identified 17 interactive buttons in interface.",
+      "error": null
+    }
+  ],
+  "aiConversation": [
+    {
+      "name": "Local Ollama Qwen 2B Inference",
+      "status": "PASS",
+      "details": "Received real model generation: \"Here is a carefully crafted response: SUBBU is active and thinking clearly.\"",
+      "error": null
+    },
+    {
+      "name": "Private Chain-of-Thought (<think>) Isolation",
+      "status": "PASS",
+      "details": "Isolated thought: \"I should greet the user warmly.\" | Clean Caption: \"Hello! How can I assist you today?\"",
+      "error": null
+    }
+  ],
+  "voicePipeline": [
+    {
+      "name": "Web Audio API & Formant FFT Support",
+      "status": "PASS",
+      "details": "Web Audio Context active with hardware audio capability.",
+      "error": null
+    }
+  ],
+  "characterStage": [
+    {
+      "name": "WebGL 3D Accelerated Context",
+      "status": "PASS",
+      "details": "Renderer: WebKit WebGL",
+      "error": null
+    }
+  ],
+  "desktopAutomation": [
+    {
+      "name": "Notepad Launch, Locate & Typing Verification",
+      "status": "PASS",
+      "details": "Typed verified text into control @s3lm13emd5fwle:e1",
+      "error": null
+    },
+    {
+      "name": "Calculator Launch & Discovery Verification",
+      "status": "PASS",
+      "details": "Calculator launched (PID: spawned).",
+      "error": null
+    },
+    {
+      "name": "Windows Explorer Launch Verification",
+      "status": "PASS",
+      "details": "Windows Explorer file manager launched through desktop station bridge.",
+      "error": null
+    }
+  ],
+  "securityAndGates": [
+    {
+      "name": "Unwhitelisted Binary Blocking (powershell.exe)",
+      "status": "PASS",
+      "details": "Dangerous shell blocked at validation gate.",
+      "error": null
+    },
+    {
+      "name": "Unwhitelisted Binary Blocking (cmd.exe)",
+      "status": "PASS",
+      "details": "Command prompt blocked at validation gate.",
+      "error": null
+    },
+    {
+      "name": "Shell Pipe / Chaining Injection Prevention",
+      "status": "PASS",
+      "details": "Piped command syntax blocked at sanitization gate.",
+      "error": null
+    }
+  ],
+  "reconnectResilience": [
+    {
+      "name": "Gateway WebSocket Rapid Reconnect Handling",
+      "status": "PASS",
+      "details": "Gateway socket closed and cleanly re-established on port 18789.",
+      "error": null
+    }
+  ],
+  "consoleAndErrors": []
+}

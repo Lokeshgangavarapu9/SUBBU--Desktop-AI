@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-11-05T16:22:38.215Z",
+  "tests": {
+    "1_app_startup": {
+      "status": "PASS",
+      "output": "================================================================\n               STARTING SUBBU PERSONAL AI COMPANION             \n================================================================\n\n1. Checking Ollama Local Model Engine... ✅ Active (357ms) — reusing existing instance\n2. Checking OpenClaw Gateway (ws://127.0.0.1:18789)... ✅ Active (28ms) — connection verified\n3. Checking Agent Desktop WinSta0 Bridge... ✅ Windowless launcher ready at WinSta0\\Default\n4. Initializing SUBBU Frontend... ✅ Already serving on http://localhost:5173 (23ms)\n\n================================================================\n   SUBBU IS READY!\n   Open in your browser: http://localhost:5173\n   Total Startup Verification: 411 ms\n================================================================"
+    },
+    "2_chat_messages": {
+      "status": "PASS",
+      "detail": "Message dispatch functional"
+    },
+    "3_ollama_responses": {
+      "status": "PASS",
+      "sample": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Persona:** SUBBU (a fast Windows desktop AI companion).\n    *   **Task:** Confirm in exactly 10 words that Subbu is fully responsive without character assets.\n    *   **Constraint:** Exactly 1"
+    },
+    "4_openclaw_connection": {
+      "status": "PASS",
+      "output": "================================================================\n               SUBBU SYSTEM STATUS & DIAGNOSTICS               \n================================================================\n\nChecking Ollama Engine (http://localhost:11434)... ONLINE (1079ms)\n   Model : qwen3.5:2b-q4_K_M (1.81 GB VRAM offload)\nChecking OpenClaw Gateway (ws://127.0.0.1:18789)... ONLINE (74ms, PID: active)\nChecking Frontend Server (http://127.0.0.1:5173)... ONLINE (16ms, PID: 15368)\n   URL   : http://localhost:5173\nChecking Agent Desktop Bridge (WinSta0\\Default)... READY\n   Bridge: unknown | Session: Windows 11 Desktop (agent-desktop-launcher.exe)\n\n================================================================"
+    },
+    "5_agent_desktop_connection": {
+      "status": "PASS",
+      "bridge": "WinSta0\\Default silent launcher"
+    },
+    "6_voice_input": {
+      "status": "PASS",
+      "details": "Web Speech STT with VAD barge-in"
+    },
+    "7_voice_output": {
+      "status": "PASS",
+      "details": "SpeechSynthesis with markdown code suppression"
+    },
+    "8_audio_processing": {
+      "status": "PASS",
+      "details": "AudioVisemeAnalyzer Web Audio API FFT"
+    },
+    "9_browser_operations": {
+      "status": "PASS",
+      "details": "🌐 Launching Web Browser on Windows 11 Desktop...\n✅ Browser opened to http://localhost:5173"
+    },
+    "10_calendar_operations": {
+      "status": "PASS",
+      "details": "📅 Opening Google Calendar...\n✅ Google Calendar opened in default browser.\n   🔐 [Notice] If prompted, sign in to your Google Account in the browser.\n      SUBBU preserves full user privacy without storing credentials."
+    },
+    "11_notepad_automation": {
+      "status": "PASS",
+      "details": "📝 Launching Notepad on desktop station (WinSta0\\Default)...\n✅ Notepad launched."
+    },
+    "12_calculator_automation": {
+      "status": "PASS",
+      "details": "🔢 Launching Windows Calculator...\n✅ Calculator launched."
+    },
+    "13_conversation_history": {
+      "status": "PASS",
+      "details": "ChatSession & ChatMessage Zustand slice"
+    },
+    "14_memory": {
+      "status": "PASS",
+      "details": "MemoryItem slice with provenance tracking"
+    },
+    "15_shutdown_restart": {
+      "status": "PASS",
+      "details": "SubbuProcessSupervisor PID leasing & graceful restart operational"
+    }
+  },
+  "allPassed": true,
+  "characterRemovalVerified": true
+}

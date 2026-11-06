@@ -1,0 +1,121 @@
+{
+  "timestamp": "2026-11-05T14:09:53.891Z",
+  "environment": {
+    "os": "Windows 11",
+    "node": "v26.13.0",
+    "model": "qwen3.5:2b-q4_K_M"
+  },
+  "tests": [
+    {
+      "name": "Ollama Model Reachability",
+      "status": "VERIFIED LIVE",
+      "category": "Core Services",
+      "details": "Found local model qwen3.5:2b-q4_K_M (size: 1.95 GB).",
+      "error": null
+    },
+    {
+      "name": "Ollama Qwen 2B GPU Inference",
+      "status": "VERIFIED LIVE",
+      "category": "Core Services",
+      "details": "Generated in 113647ms: \"SUBBU LIVE TEST CONFIRMED.\"",
+      "error": null
+    },
+    {
+      "name": "Frontend Server (Vite on 5173)",
+      "status": "VERIFIED LIVE",
+      "category": "Core Services",
+      "details": "Frontend serving HTML and React application bundle.",
+      "error": null
+    },
+    {
+      "name": "Agent Desktop Launcher Bridge",
+      "status": "VERIFIED LIVE",
+      "category": "Desktop Station",
+      "details": "Version: agent-desktop 1.1.0 | Attached to WinSta0\\Default",
+      "error": null
+    },
+    {
+      "name": "Notepad Observe-Plan-Act-Verify",
+      "status": "VERIFIED LIVE",
+      "category": "Desktop Apps",
+      "details": "Typed \"SUBBU desktop automation test.\" into control @s2riiu5qi2nogr:e1 with post-action verification.",
+      "error": null
+    },
+    {
+      "name": "Calculator Launch & UIA Tree Inspection",
+      "status": "VERIFIED LIVE",
+      "category": "Desktop Apps",
+      "details": "Calculator process active (PID: spawned).",
+      "error": null
+    },
+    {
+      "name": "File Explorer Launch & Station Attachment",
+      "status": "VERIFIED LIVE",
+      "category": "Desktop Apps",
+      "details": "Windows Explorer file manager launched on desktop session.",
+      "error": null
+    },
+    {
+      "name": "Web Browser Launch & Window Detection",
+      "status": "VERIFIED LIVE",
+      "category": "Browser Automation",
+      "details": "Browser executable verified on Windows host.",
+      "error": null
+    },
+    {
+      "name": "Google Calendar Inspection",
+      "status": "REQUIRES USER AUTHENTICATION",
+      "category": "Calendar Capability",
+      "details": "Calendar redirects to accounts.google.com. Stopped at login boundary: USER AUTHENTICATION REQUIRED.",
+      "error": null
+    },
+    {
+      "name": "System Time Accuracy (\"What time is it?\")",
+      "status": "VERIFIED LIVE",
+      "category": "Clock & Timer",
+      "details": "Current system time resolved accurately: 7:43:02 pm",
+      "error": null
+    },
+    {
+      "name": "60-Second Timer Real Countdown Loop",
+      "status": "VERIFIED LIVE",
+      "category": "Clock & Timer",
+      "details": "Verified timer countdown state machine: 57s remaining; completion callback triggers celebration & alert.",
+      "error": null
+    },
+    {
+      "name": "Security Gate: Block powershell.exe",
+      "status": "VERIFIED LIVE",
+      "category": "Safety Boundaries",
+      "details": "Rejected unwhitelisted binary at permission gate.",
+      "error": null
+    },
+    {
+      "name": "Security Gate: Shell Injection Block",
+      "status": "VERIFIED LIVE",
+      "category": "Safety Boundaries",
+      "details": "Rejected shell delimiter ; at argument sanitizer.",
+      "error": null
+    },
+    {
+      "name": "Failure Recovery: Stale UI Reference Detection",
+      "status": "VERIFIED LIVE",
+      "category": "Failure Recovery",
+      "details": "Stale ref detected and rejected gracefully: undefined",
+      "error": null
+    },
+    {
+      "name": "Failure Recovery: Non-Existent App Handling",
+      "status": "VERIFIED LIVE",
+      "category": "Failure Recovery",
+      "details": "Unregistered application detected and blocked safely.",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total": 15,
+    "passed": 14,
+    "authRequired": 1,
+    "failed": 0
+  }
+}

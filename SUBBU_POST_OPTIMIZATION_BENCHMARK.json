@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-11-05T15:53:46.687Z",
+  "metrics": {
+    "bundle": {
+      "totalSizeKB": "1446.9",
+      "chunks": {
+        "AgentsDrawer-Blnmxd49.js": "1.7 KB",
+        "ApprovalModal-B5bcBsks.js": "2.6 KB",
+        "ChatDrawer-CWTQUGtw.js": "3.5 KB",
+        "FilesDrawer-1-9NYf1S.js": "2.6 KB",
+        "framer-ui-CTD9HRpL.js": "144.5 KB",
+        "GlassButton-DmiCJrer.js": "1.2 KB",
+        "index-BFo7JDX5.css": "29.2 KB",
+        "index-DL_Y_EoE.js": "142.9 KB",
+        "MemoryDrawer-DneKrKIp.js": "2.1 KB",
+        "QuickCommandOverlay-BVuo84XC.js": "4.4 KB",
+        "SettingsModal-XHqfen6c.js": "11.4 KB",
+        "subbu-state-iO1vgCrK.js": "7.4 KB",
+        "SystemStatusModal-D0FrUcNT.js": "7.9 KB",
+        "TasksDrawer-CH5KFtsS.js": "3.1 KB",
+        "three-core-ChQVAFei.js": "671.9 KB",
+        "three-r3f-CqhXChSU.js": "267.2 KB",
+        "vrm-runtime-cQXr0bd3.js": "143.4 KB"
+      }
+    },
+    "ollamaWarm": {
+      "ttftMs": 19546,
+      "totalDurationMs": 24178,
+      "thinkingTokens": 210,
+      "responseTokens": 0,
+      "totalTokens": 210,
+      "tokensPerSec": "45.3",
+      "sampleThinking": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: SUBBU (Ultra-fast desktop assistant).\n...",
+      "sampleResponse": ""
+    },
+    "systemMemory": {
+      "totalGB": "15.64",
+      "usedGB": "15.02",
+      "freeGB": "0.62",
+      "usagePct": "96.0%"
+    },
+    "gpu": {
+      "totalVramMiB": "4094",
+      "usedVramMiB": "1385",
+      "freeVramMiB": "2508",
+      "gpuUtilPct": "0%",
+      "temperatureC": "49°C"
+    }
+  }
+}

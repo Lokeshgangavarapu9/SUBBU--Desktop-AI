@@ -1,0 +1,86 @@
+[
+  {
+    "testNumber": 1,
+    "name": "Repository Integrity & Structure",
+    "status": "PASS",
+    "details": "Upstream cloned cleanly. Cargo.toml and crates present.",
+    "error": null
+  },
+  {
+    "testNumber": 2,
+    "name": "Integration Layer Initialization",
+    "status": "PASS",
+    "details": "Client and Adapter instantiated successfully with valid API signatures.",
+    "error": null
+  },
+  {
+    "testNumber": 3,
+    "name": "Health Check & Diagnostics",
+    "status": "PASS",
+    "details": "Version: agent-desktop 1.1.0, Launcher Active: true, Station Interactive: true",
+    "error": null
+  },
+  {
+    "testNumber": 4,
+    "name": "Application Discovery",
+    "status": "PASS",
+    "details": "Enumerated running applications successfully (active apps found) without EnumWindows failure.",
+    "error": null
+  },
+  {
+    "testNumber": 5,
+    "name": "Application Launch (Notepad)",
+    "status": "PASS",
+    "details": "Launched notepad.exe successfully via desktop station launcher.",
+    "error": null
+  },
+  {
+    "testNumber": 6,
+    "name": "Window Observation & Snapshot",
+    "status": "PASS",
+    "details": "Captured Notepad snapshot. Root role: window. Target edit ref: @sco3n7szidchs:e1",
+    "error": null
+  },
+  {
+    "testNumber": 7,
+    "name": "Text Entry",
+    "status": "PASS",
+    "details": "Typed \"Hello! Agent Desktop is integrated with SUBBU.\" into ref @sco3n7szidchs:e1 using headed keyboard simulation.",
+    "error": null
+  },
+  {
+    "testNumber": 8,
+    "name": "UI Interaction (Click)",
+    "status": "PASS",
+    "details": "Invoked click on interactive element @sco3n7szidchs:e4 successfully via UIA.",
+    "error": null
+  },
+  {
+    "testNumber": 9,
+    "name": "Failure Handling & Recovery",
+    "status": "PASS",
+    "details": "Correctly caught and reported invalid/stale ref: \"undefined\" without process crashing.",
+    "error": null
+  },
+  {
+    "testNumber": 10,
+    "name": "Approval Handling & Safety Boundaries",
+    "status": "PASS",
+    "details": "Blocked unwhitelisted executable (cmd.exe) at validation boundary.",
+    "error": null
+  },
+  {
+    "testNumber": 11,
+    "name": "Integration Lifecycle",
+    "status": "PASS",
+    "details": "Lifecycle and display query verified without lingering zombie handles.",
+    "error": null
+  },
+  {
+    "testNumber": 12,
+    "name": "Existing Functionality Regression Test",
+    "status": "PASS",
+    "details": "All 6 original MCP tools preserved with 100% backward compatibility.",
+    "error": null
+  }
+]
